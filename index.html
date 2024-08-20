@@ -11,20 +11,20 @@
   </head>
   <body>
     <header class="header">
-      <nav class="menu">
-        <ul class="menu-list">
-          <li> <a class="menu-link" href="#cover">главная</a> </li>
-          <li> <a class="menu-link" href="#lots">посмотреть лоты</a> </li>
-          <li> <a class="menu-link" href="#about">об аукционе</a> </li>
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item_no-bullit"> <a class="header__link_active" href="#cover">главная</a> </li>
+          <li class="header__links-list-item"> <a class="header__link" href="#lots">посмотреть лоты</a> </li>
+          <li class="header__links-list-item"> <a class="header__link" href="#about">об аукционе</a> </li>
         </ul>
-        <a class="block-link">
+        <a class="header__logo">
           <img 
-            class="logo"
+            class="header__logo-image"
             src="./images/logo-black.svg"
             alt="Логотип Оно тебе надо"
           />
         </a>
-        <div class="contacts">
+        <div class="address">
           <a href="tel:+99995555555">+9 999 555 5555</a><br>
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
           <address> наб. Принсенграхт 263-265, Амстердам</address> 
@@ -33,14 +33,20 @@
     </header>
     <main>
       <section class="cover">
-        <div class="black-bg">
-          <div class="cover-section-content">
-            <p>Оно тебе надо</p>
-          </div>
+        <div class="overlay">
+        </div>
+        <h1 class="cover__title">
+          <span class="aligned-text">ОНО</span> 
+          <span class="aligned-text_center">ТЕБЕ</span>
+          <span class="aligned-text_right">НАДО</span>
+        </h1>
+        <div class="cover__description">
+          <h3 class="cover__description-text">Аукцион вещей, в которые никто не верил</h3>
+          <button class="bet-button">СДЕЛАТЬ СТАВКУ</button>
         </div>
       </section>
       <section class="lots">
-
+        <h2>ЛОТЫ</h2>
       </section>
       <section class="about">
 
