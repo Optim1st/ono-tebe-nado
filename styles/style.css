@@ -26,9 +26,6 @@
   list-style: none;
 }
 
-.header__links-list-item {
-}
-
 .header__link_active {
   text-decoration: none;
 }
@@ -276,9 +273,6 @@
   list-style-type: none;
 }
 
-.footer__menu-list-item {
-}
-
 .footer__menu-link_active {
   text-decoration: none;
 }
@@ -289,12 +283,6 @@
   grid-column-end: 14;
   gap: 25%;
   list-style-type: none;
-}
-
-.footer__social-list-item {
-}
-
-.footer__social-link {
 }
 
 .footer__social-icon {
