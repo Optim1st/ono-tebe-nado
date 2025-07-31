@@ -1,6 +1,6 @@
 /* header */
 .header {
-  padding: 5.4vh 0.5vw;
+  padding: 9% 0.5vw;
   font-size: 18px;
 }
 
@@ -32,7 +32,8 @@
 
 .header__logo {
   display: block;
-  width: 7vw;
+  width: 148px;
+  height: 105px;
 }
 
 .header__logo-image {
@@ -52,7 +53,6 @@
 
 .cover {
   margin: auto;
-  margin-top: 3vh;
   height: 757px;
   background-image: url("../images/cover.jpg");
   background-size: cover;
@@ -63,48 +63,34 @@
 
 
 .cover__title {
-  padding: 165px 50px 135px;
+  padding: 158px 50px 100px;
   font-family: Raleway, sans-serif;
   font-weight: bold;
   color: #fff;
   -webkit-text-stroke: 2px black;
   font-size: 100px;
-  letter-spacing: 0.7cm;
+  letter-spacing: 0.8cm;
+  line-height: 133%;
   position: relative;
   z-index: 1;
 }
 
 .aligned-text {
   display: block;
-  letter-spacing: 0.9cm;
 }
 
 .aligned-text_center {
-  margin-top: 1vh;
   display: block;
   text-align: center;
+  margin-right: -0.3em;
 }
 
 .aligned-text_right {
   display: block;
   text-align: right;
-  margin-right: -11px;
+  margin-right: -0.3em;
 }
 
-.letter-spacing-extended {
-  display: inline;
-  letter-spacing: 1.5cm;
-}
-
-.no-letter-spacing {
-  display: inline;
-  letter-spacing: 0.7cm;
-}
-
-.letter-spacing-extended-right {
-  display: inline;
-  letter-spacing: 2cm;
-}
 
 .cover__description {
   position: relative;
@@ -118,10 +104,10 @@
   color: #fff;
   font-size: 22px;
   line-height: 28px;
-  letter-spacing: 1px;
-  padding: 10px 53px;
-  margin-left: 16px;
-  word-spacing: 15px;
+  letter-spacing: 90%;
+  text-transform: uppercase;
+  padding: 10px 88px 10px 50px;
+  word-spacing: 18px;
 }
 
 .bet-button {
